@@ -15,5 +15,8 @@ $(document).ready(function() {
     $("#slidout-hidden").slideToggle();
 
   });
+  $("#click-expo").click(function() {
+    $("#expand-expo").fadeToggle();
+  })
     
 });
