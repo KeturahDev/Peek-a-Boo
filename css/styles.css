@@ -1,3 +1,6 @@
 .intentionally-hidden {
   display: none;
 }
+#fadein-hidden {
+  display: none;
+}
