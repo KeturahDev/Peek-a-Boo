@@ -5,8 +5,9 @@ $(document).ready(function() {
   });
   $(".clickable").click(function() {
     
-    $("#fadein-showing").toggle(); 
-    $("#fadein-hidden").toggle();
-  })
+    $("#fadein-showing").fadeToggle(); 
+    $("#fadein-hidden").fadeToggle();
+
+  });
     
 });
